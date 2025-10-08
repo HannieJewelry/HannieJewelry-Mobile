@@ -1,0 +1,103 @@
+# Mobile HannieJewelry-v3 - UI Fix Documentation
+
+## Vấn đề đã sửa: GridView không hiển thị hết sản phẩm
+
+### Mô tả vấn đề:
+- Trong CategoryProductsSection, GridView có chiều cao cố định (400px)
+- Khi có nhiều hơn 4 sản phẩm, các sản phẩm cuối bị cắt và không thể xem được
+- Physics được set là NeverScrollableScrollPhysics nhưng không có shrinkWrap
+
+### Giải pháp đã áp dụng:
+
+#### 1. Loại bỏ chiều cao cố định:
+```dart
+// TRƯỚC:
+SizedBox(
+  height: 400, // Fixed height to make it scrollable
+  child: _buildCategoryProducts(productService),
+),
+
+// SAU:
+_buildCategoryProducts(productService),
+```
+
+#### 2. Thêm shrinkWrap cho GridView:
+```dart
+// TRƯỚC:
+GridView.builder(
+  physics: const NeverScrollableScrollPhysics(),
+  // ...
+)
+
+// SAU:
+GridView.builder(
+  shrinkWrap: true, // Allow GridView to size itself based on content
+  physics: const NeverScrollableScrollPhysics(), // Disable internal scrolling to use parent scroll
+  // ...
+)
+```
+
+### Kết quả:
+- GridView bây giờ sẽ tự động điều chỉnh chiều cao dựa trên số lượng sản phẩm
+- Tất cả sản phẩm đều có thể xem được thông qua scroll của CustomScrollView cha
+- UI responsive và không bị giới hạn số lượng sản phẩm hiển thị
+
+### Files đã sửa:
+- `lib/features/home/widgets/category_products_section.dart`
+
+### Cấu trúc dự án Mobile-HannieJewelry-v3:
+
+```
+lib/
+├── app/                    # App configuration
+├── core/                   # Core utilities, constants, services
+│   ├── constants/          # App colors, styles, etc.
+│   ├── services/           # Auth guard, shared services
+│   ├── utils/              # Helper functions
+│   └── widgets/            # Shared widgets
+├── features/               # Feature-based architecture
+│   ├── auth/               # Authentication
+│   ├── cart/               # Shopping cart
+│   ├── checkout/           # Checkout process
+│   ├── home/               # Home screen & widgets
+│   │   ├── screens/        # Home, blog, contact, etc.
+│   │   └── widgets/        # Carousel, quick actions, product cards
+│   ├── info/               # App information
+│   ├── notifications/      # Push notifications
+│   ├── orders/             # Order management
+│   ├── products/           # Product catalog
+│   │   ├── models/         # Product, category models
+│   │   ├── screens/        # Product list, detail screens
+│   │   ├── services/       # Product API services
+│   │   └── widgets/        # Product-related widgets
+│   └── profile/            # User profile
+├── main.dart               # App entry point
+└── routes/                 # App routing
+```
+
+### Kiến trúc sản phẩm:
+
+#### Product Model:
+- `Product`: Chứa thông tin sản phẩm (id, title, images, variants, etc.)
+- `ProductVariant`: Các biến thể sản phẩm (size, color, price, inventory)
+- `ProductImage`: Hình ảnh sản phẩm
+- `ProductOption`: Các tùy chọn sản phẩm
+
+#### UI Components:
+- `ProductCard`: Card hiển thị sản phẩm trong grid
+- `CategoryProductsSection`: Section hiển thị sản phẩm theo danh mục
+- `HomeScreen`: Màn hình chính với carousel, quick actions, trending
+
+#### Features chính:
+- Hiển thị sản phẩm theo danh mục
+- Cache sản phẩm để tăng performance
+- Preload categories trong background
+- Infinite scroll cho danh sách sản phẩm
+- Responsive grid layout (2 cột)
+
+### Ghi chú kỹ thuật:
+- Framework: Flutter 3.0+
+- State Management: Provider
+- Architecture: Clean Architecture với feature-based structure
+- Caching: In-memory cache cho products theo category
+- Performance: Background preloading và lazy loading

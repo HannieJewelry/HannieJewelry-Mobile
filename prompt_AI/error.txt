@@ -1,0 +1,582 @@
+Performing hot restart...
+Syncing files to device sdk gphone64 x86 64...
+Restarted application in 1,511ms.
+I/flutter ( 8289): 🚀 Starting application...
+I/flutter ( 8289): 📦 Initializing app providers...
+I/flutter ( 8289): 🚀 Initializing AppProvider...
+I/flutter ( 8289): 🔑 Initializing AuthService...
+I/flutter ( 8289): 🛒 Loaded cart token from storage: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/customers/profile
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c}
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:06 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Z%2FWWvnw9%2B8W1E6nyYfwovZDBIpNFVirqTBynwBn0aNbSSc%2BIvzdaV%2Fm0K9PCsxJDY5fTJW5WrMIPbZ8UevqZREa6rUEB8F6OGMDtAtc%2BOiXAN%2BhVYg%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdf9e7a9387c3-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":nul
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":
+I/flutter ( 8289): 🔒 Setting up AuthGuardService...
+I/flutter ( 8289): 📍 Setting up AddressService...
+I/flutter ( 8289): 🔍 AddressService: Fetching addresses
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/addresses
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c}
+I/flutter ( 8289): 🛒 Setting up CartService...
+I/flutter ( 8289): 🛒 Using existing cart token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c
+I/flutter ( 8289): 🛒 Fetching cart from server
+I/flutter ( 8289): 🛒 Using cart token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/cart
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c}
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:07 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=YjXpBmmOQ983jHVjvksNXa%2Bf2hgkaxM56NgsXLJWlJLbTwEUw%2FEL5d4X2q2W%2FHaS7GbEvuTDd%2BnGTZC3Bsr9TS2bTqiTi75fbbJH5f4nuaXC4Oj48g%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfa2ce7513b2-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"d6b1b13c-6925-4a9a-a6d0-e716e3c02c95","address1":"Address demo 1","addres
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"d6b1b13c-6925-4a9a-a6d0-e716e3c02c95","address1":"Address demo 
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"result":{"content":[{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"d6b1b13c-6925-4a9a-a6d0-e716e3c02c95","address1":"Address de
+I/flutter ( 8289): 📋 AddressService: Response received
+I/flutter ( 8289):    Status code: 200
+I/flutter ( 8289):    Message: Thành công
+I/flutter ( 8289): ✅ AddressService: Addresses loaded successfully
+I/flutter ( 8289):    Count: 3
+I/flutter ( 8289): 🛒 Set cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Cart token found in response data: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:07 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D6VSKuZ1%2Fylh8CJoFS0v%2FAEBRZJxqQtdRyFTdEMldxYb2BfW43Q%2BPisYouaoNVf6Nz73cwrGCpaMQMrv3YCO%2FuknuVmNXDCtN%2FvqxEmQG9F0Xo2PoQ%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfa2fea5885b-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift_wrap":"ye
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","g
+I/flutter ( 8289): 🛒 Cart response: {message: Thành công, code: 200, data: {id: 46c9c228-a89a-40ce-89b0-777bdc08e7db, token: 332280a09ded4de38268b09772c18f9b, item_count: 1, total_price: 600000.0, items: [{id: f0b0eb55-fe20-4acb-a3ad-c091ac1257b4, quantity: 1, price: 600000.0, line_price: 600000.0, variant_id: 147, product_id: a8b5e4f9-a5ca-4cd8-a110-645b49cc4452, product_title: product-test-2025, variant_title: 10, sku: NHẪN-NỮ-10-240725005934, image: https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png, line: 1}], attributes: {shipping_instructions: No special instructions, shipping_company: Company 2, shipping_method_id: 1, shipping_city: Hồ Chí Minh, delivery_instructions: leave at door, shipping_province_id: 0, shipping_ward_id: 26887, shipping_district_id: 0, payment_method_id: 2, full_name: Tuyen Pham, shipping_country_id: 241, phone_number: 0123456789, shipping_address: Address demo 1, gift_wrap: yes, email: thaidemo@gmail.com, shipping
+I/flutter ( 8289): ✅ Cart fetched successfully
+I/flutter ( 8289):    Cart ID: 46c9c228-a89a-40ce-89b0-777bdc08e7db
+I/flutter ( 8289):    Cart Token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289):    Items: 1
+I/flutter ( 8289):    Total: 600000.0
+I/flutter ( 8289): 🛒 Cart initialized with 1 items
+I/flutter ( 8289): 🧾 Setting up CheckoutService...
+I/flutter ( 8289): ✅ AppProvider initialization complete
+I/flutter ( 8289): 🔑 Authentication status: Authenticated
+I/flutter ( 8289): 👤 Current user: Nguyen Hoang Thai (f6d72e89-71fd-41d2-9f44-ae12aa348748)
+I/flutter ( 8289): ✅ App providers initialized successfully
+I/flutter ( 8289): 🚀 Initializing AppProvider...
+I/flutter ( 8289): 🔑 Initializing AuthService...
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/collections
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/collections
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Saved cart token to storage: 332280a09ded4de38268b09772c18f9b
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/customers/profile
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/collections
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CAR%2BJSL3oxnVU6xJu3nbfF%2Fw2TuQe03Gr4XZ1iXbcosbfTQZNgPLvnB7cYXqw%2BuCZ0alJAHdYEC1suNxjHQvAAOW9xSmGsBbmqgNqG6O3zZM7x65GQ%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfaef8ce9c80-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng
+I/flutter ( 8289): 🔍 Fetching products for collection: sample-ring-2-1 (page: 1)
+I/flutter ( 8289): 📡 API endpoint: /api/client/collections/sample-ring-2-1/products?page=1&size=10
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/collections/sample-ring-2-1/products?page=1&size=10
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dAQt3m2HViNzGenpiiBeFeOAbBBmnxYDH4PUNCtSc38XjK10AgdFyUvn4Pep1x%2Bnp50EGE3UEO%2FVFcMhvU%2FI2cFLMvqkdVqR7BxQb2Zajcl50MyY%2Bw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb08d225ffd-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":nul
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":
+I/flutter ( 8289): 🔒 Setting up AuthGuardService...
+I/flutter ( 8289): 📍 Setting up AddressService...
+I/flutter ( 8289): 🔍 AddressService: Fetching addresses
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/addresses
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 🛒 Setting up CartService...
+I/flutter ( 8289): 🛒 Using existing cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Fetching cart from server
+I/flutter ( 8289): 🛒 Using cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/cart
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: close, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zSjVGKFkesZqkCDOqRXBC9DJQunWEhOa3gXOkdyiuiJj9k6skcUC7WVVMKLJF3h01Lu0FG%2FFRjoSmsPTCvIvcYuOw%2F1TKKidL3DgbbxvGaL4IIiEZw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb28b5f89b9-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng
+I/flutter ( 8289): ❌ Error initializing ProductService: A ProductService was used after being disposed.
+I/flutter ( 8289): Once you have called dispose() on a ProductService, it can no longer be used.
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6aXBoYEDGvIlFPVBcyW%2B%2F5BSdTDEyARhDDp8CIgaBQeo1PrW%2FPh5eH%2F5Ji6rQKhCVPhTjdCU1e2MtqWWuMPaayw5rV2oGLkKyJDjHcScRDkYAbVT0g%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb28e76fd79-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":[{"id":"c1caaa55-0a9e-416c-9aa2-85635afa93a2","body_html":"","created_at":"2025-07-24T00:37:13.790645Z","handle":"sample-ring-2-1","image":{"created_at":null,"src":null},"items_count":5,"published":true,"published_at":"2025-07-24T00:37:13.774640Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Sample Ring 2","updated_at":"2025-07-24T00:37:13.790677Z"},{"id":"90c39e0d-ec0e-4f24-ae6e-3ba00caf7b9c","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng","created_at":"2025-07-23T07:20:55.410812Z","handle":"nhan-nu","image":{"created_at":null,"src":null},"items_count":1,"published":true,"published_at":"2025-07-23T07:20:55.395623Z","published_scope":"web","sort_order":"alpha_asc","template_suffix":null,"title":"Nhẫn nữ","updated_at":"2025-07-23T07:20:55.410821Z"},{"id":"34e91b42-4bad-4cb6-bc48-0dd53c3f1556","body_html":"Danh mục các sản phẩm nhẫn nữ tinh tế và sang trọng
+I/flutter ( 8289): 🔍 Fetching products for collection: sample-ring-2-1 (page: 1)
+I/flutter ( 8289): 📡 API endpoint: /api/client/collections/sample-ring-2-1/products?page=1&size=10
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/collections/sample-ring-2-1/products?page=1&size=10
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cjJbz5%2BnnUqAP80BELeCgbFL9p3ZQ0D44wL0hSEjRimJeymvTg%2FZBdtuMauSYu9BfWDyaIRtlxtXENc0q1QQ9oiR6xGLBPBdi8YuhqrChxiq65opBg%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb31d2e49cc-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"body_html":"","created_at":"2025-07-23T17:59:38.200003Z","handle":"product-test-2025","id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_type":"Nhẫn nữ","published_at":"2025-07-23T17:59:34.634Z","published_scope":"global","template_suffix":"product","title":"product-test-2025","updated_at":"2025-07-23T17:59:38.200020Z","vendor":"Trang sức Lộc Phát","not_allow_promotion":false,"available":true,"tags":"Quà tặng,Thanh lịch","sole_quantity":5,"images":[{"created_at":"2025-07-23T17:59:43.439898Z","id":"edcbb42d-457f-44a6-b5f4-e1a559d0cad8","position":1,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","updated_at":"2025-07-23T17:59:43.439912Z","src":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","alt":null,"variant_ids":null},{"created_at":"2025-07-23T17:59:46.243149Z","id":"065083c7-c50b-4c99-b852-95591daa58c8","position":2,"product_id":"a8
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"body_html":"","created_at":"2025-07-23T17:59:38.200003Z","handle":"product-test-2025","id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_type":"Nhẫn nữ","published_at":"2025-07-23T17:59:34.634Z","published_scope":"global","template_suffix":"product","title":"product-test-2025","updated_at":"2025-07-23T17:59:38.200020Z","vendor":"Trang sức Lộc Phát","not_allow_promotion":false,"available":true,"tags":"Quà tặng,Thanh lịch","sole_quantity":5,"images":[{"created_at":"2025-07-23T17:59:43.439898Z","id":"edcbb42d-457f-44a6-b5f4-e1a559d0cad8","position":1,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","updated_at":"2025-07-23T17:59:43.439912Z","src":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","alt":null,"variant_ids":null},{"created_at":"2025-07-23T17:59:46.243149Z","id":"065083c7-c50b-4c99-b852-95591daa58c8","position":2,"produ
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"result":{"content":[{"body_html":"","created_at":"2025-07-23T17:59:38.200003Z","handle":"product-test-2025","id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_type":"Nhẫn nữ","published_at":"2025-07-23T17:59:34.634Z","published_scope":"global","template_suffix":"product","title":"product-test-2025","updated_at":"2025-07-23T17:59:38.200020Z","vendor":"Trang sức Lộc Phát","not_allow_promotion":false,"available":true,"tags":"Quà tặng,Thanh lịch","sole_quantity":5,"images":[{"created_at":"2025-07-23T17:59:43.439898Z","id":"edcbb42d-457f-44a6-b5f4-e1a559d0cad8","position":1,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","updated_at":"2025-07-23T17:59:43.439912Z","src":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","alt":null,"variant_ids":null},{"created_at":"2025-07-23T17:59:46.243149Z","id":"065083c7-c50b-4c99-b852-95591daa58c8","position":2,"pr
+I/flutter ( 8289): 📦 API response received: 200
+I/flutter ( 8289): 📋 Found 5 products
+I/flutter ( 8289): 🔄 Products refreshed: 5 items
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=JK52f%2BrK0gIrQxD7rDAMSm%2FxfebtQy5hsaFI1Xa1rtX9JvjYZ84VjWVYW0NXX6pK98lgDffZ3nfxdUCzBcK%2BBBQ28aObjRBKehwmDzRHQLTm4JIDgA%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb3cc643fc2-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"d6b1b13c-6925-4a9a-a6d0-e716e3c02c95","address1":"Address demo 1","addres
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"d6b1b13c-6925-4a9a-a6d0-e716e3c02c95","address1":"Address demo 
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"result":{"content":[{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"d6b1b13c-6925-4a9a-a6d0-e716e3c02c95","address1":"Address de
+I/flutter ( 8289): 📋 AddressService: Response received
+I/flutter ( 8289):    Status code: 200
+I/flutter ( 8289):    Message: Thành công
+I/flutter ( 8289): ✅ AddressService: Addresses loaded successfully
+I/flutter ( 8289):    Count: 3
+I/flutter ( 8289): 🛒 Set cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Cart token found in response data: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ESOrlsBSbP%2FtA08tFJIMdXD1%2B1mYJ75aAjTOLaJzTcMsxx4z0Lys1Mk06tSmn5JpxqP%2BB2NeiYthUbTffoyxw6GoWvRrKdu0vMFuZYHM5k2C1bqExw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb3ca22fcf8-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift_wrap":"ye
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","g
+I/flutter ( 8289): 🛒 Cart response: {message: Thành công, code: 200, data: {id: 46c9c228-a89a-40ce-89b0-777bdc08e7db, token: 332280a09ded4de38268b09772c18f9b, item_count: 1, total_price: 600000.0, items: [{id: f0b0eb55-fe20-4acb-a3ad-c091ac1257b4, quantity: 1, price: 600000.0, line_price: 600000.0, variant_id: 147, product_id: a8b5e4f9-a5ca-4cd8-a110-645b49cc4452, product_title: product-test-2025, variant_title: 10, sku: NHẪN-NỮ-10-240725005934, image: https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png, line: 1}], attributes: {shipping_instructions: No special instructions, shipping_company: Company 2, shipping_method_id: 1, shipping_city: Hồ Chí Minh, delivery_instructions: leave at door, shipping_province_id: 0, shipping_ward_id: 26887, shipping_district_id: 0, payment_method_id: 2, full_name: Tuyen Pham, shipping_country_id: 241, phone_number: 0123456789, shipping_address: Address demo 1, gift_wrap: yes, email: thaidemo@gmail.com, shipping
+I/flutter ( 8289): ✅ Cart fetched successfully
+I/flutter ( 8289):    Cart ID: 46c9c228-a89a-40ce-89b0-777bdc08e7db
+I/flutter ( 8289):    Cart Token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289):    Items: 1
+I/flutter ( 8289):    Total: 600000.0
+I/flutter ( 8289): 🛒 Cart initialized with 1 items
+I/flutter ( 8289): 🧾 Setting up CheckoutService...
+I/flutter ( 8289): ✅ AppProvider initialization complete
+I/flutter ( 8289): 🔑 Authentication status: Authenticated
+I/flutter ( 8289): 👤 Current user: Nguyen Hoang Thai (f6d72e89-71fd-41d2-9f44-ae12aa348748)
+I/flutter ( 8289): 🛒 Saved cart token to storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:09 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eOUkWb13aBNjJgfYv%2BimGlD%2Bb5fq9Z7AwmRD4aCsztc6XCHDZP7de8TxKWdg8SysNbH3bqM9%2FECxPNJMHDC5uYLodCtu3GdbfAnGAtlP6ZLRDCPxng%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb40c0d8343-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:10 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MTYvmboetB5DLjtHYdQuR6vWxMvTWtXKWMwPuLQ0by77SadEGBMP85eVzCmkGEeEo1g%2BaK1yHVacXvV4Z2RwYB3ORUNWPYKJn2giwrt2aNHqSnsuQA%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fdfb62ff4ce1f-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"body_html":"","created_at":"2025-07-23T17:59:38.200003Z","handle":"product-test-2025","id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_type":"Nhẫn nữ","published_at":"2025-07-23T17:59:34.634Z","published_scope":"global","template_suffix":"product","title":"product-test-2025","updated_at":"2025-07-23T17:59:38.200020Z","vendor":"Trang sức Lộc Phát","not_allow_promotion":false,"available":true,"tags":"Quà tặng,Thanh lịch","sole_quantity":5,"images":[{"created_at":"2025-07-23T17:59:43.439898Z","id":"edcbb42d-457f-44a6-b5f4-e1a559d0cad8","position":1,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","updated_at":"2025-07-23T17:59:43.439912Z","src":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","alt":null,"variant_ids":null},{"created_at":"2025-07-23T17:59:46.243149Z","id":"065083c7-c50b-4c99-b852-95591daa58c8","position":2,"product_id":"a8
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"result":{"content":[{"body_html":"","created_at":"2025-07-23T17:59:38.200003Z","handle":"product-test-2025","id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_type":"Nhẫn nữ","published_at":"2025-07-23T17:59:34.634Z","published_scope":"global","template_suffix":"product","title":"product-test-2025","updated_at":"2025-07-23T17:59:38.200020Z","vendor":"Trang sức Lộc Phát","not_allow_promotion":false,"available":true,"tags":"Quà tặng,Thanh lịch","sole_quantity":5,"images":[{"created_at":"2025-07-23T17:59:43.439898Z","id":"edcbb42d-457f-44a6-b5f4-e1a559d0cad8","position":1,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","updated_at":"2025-07-23T17:59:43.439912Z","src":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","alt":null,"variant_ids":null},{"created_at":"2025-07-23T17:59:46.243149Z","id":"065083c7-c50b-4c99-b852-95591daa58c8","position":2,"produ
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"result":{"content":[{"body_html":"","created_at":"2025-07-23T17:59:38.200003Z","handle":"product-test-2025","id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_type":"Nhẫn nữ","published_at":"2025-07-23T17:59:34.634Z","published_scope":"global","template_suffix":"product","title":"product-test-2025","updated_at":"2025-07-23T17:59:38.200020Z","vendor":"Trang sức Lộc Phát","not_allow_promotion":false,"available":true,"tags":"Quà tặng,Thanh lịch","sole_quantity":5,"images":[{"created_at":"2025-07-23T17:59:43.439898Z","id":"edcbb42d-457f-44a6-b5f4-e1a559d0cad8","position":1,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","updated_at":"2025-07-23T17:59:43.439912Z","src":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","alt":null,"variant_ids":null},{"created_at":"2025-07-23T17:59:46.243149Z","id":"065083c7-c50b-4c99-b852-95591daa58c8","position":2,"pr
+I/flutter ( 8289): 📦 API response received: 200
+I/flutter ( 8289): 📋 Found 5 products
+I/flutter ( 8289): 🔄 Products refreshed: 5 items
+I/ImeTracker( 8289): com.example.demo_v1:11059094: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 8289): show(ime(), fromIme=false)
+D/InsetsController( 8289): Setting requestedVisibleTypes to -1 (was -9)
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+D/InputConnectionAdaptor( 8289): The input method toggled cursor monitoring on
+I/AssistStructure( 8289): Flattened final assist data: 420 bytes, containing 1 windows, 3 views
+I/ImeTracker( 8289): com.example.demo_v1:11059094: onShown
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610839, 12378784, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610861, 39714918, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610883, 53551452, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610905, 51278686, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610942, 33668354, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610964, 26055688, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2610993, 24650422, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2611015, 27974556, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2611037, 29615190, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2611066, 26209424, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2611088, 27150858, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2611110, 26483192, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+V/PerfettoTrigger( 8289): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): Sending OTP with endpoint: /api/auth/request-otp and data: {phone: 0345807906}
+I/flutter ( 8289): 🌐 API POST Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/auth/request-otp
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289):    Body: {"phone":"0345807906"}
+I/flutter ( 8289):    Body Size: 22 bytes
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:38 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=F%2Fv3LJqqh7PYAXYsF%2FLLuOtVsBdAkSWCH0nklkZ1jTVTiHDVAwr93IDNqcb1H%2FtxBIPhIWJ4BEaIx8gXgnUUzjKG2ADA2CydJuejkt3TMdGTDp7RRw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe068cc294035-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 📥 API POST Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:38 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kyp5r1vNH9Bt%2BOyyEV2qjOm3BzZneNwMJBY97pxFmgklhcazTxD0%2BK6R1JfLKUEW%2BhHUr6LqTA%2BU2a3qGwGalRtnDKYOl1OVioyWKa6MC3CiH2qFkA%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe068ceeffd79-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Đã gửi mã OTP.","code":200,"data":null}
+I/flutter ( 8289):    Body Length: 51
+I/flutter ( 8289): API Response Body: {"message":"Đã gửi mã OTP.","code":200,"data":null}
+I/flutter ( 8289): API Response Decoded: {"message":"Đã gửi mã OTP.","code":200,"data":null}
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/ImeTracker( 8289): com.example.demo_v1:f811105a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 8289): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 8289): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@92c1281
+D/InsetsController( 8289): Setting requestedVisibleTypes to -9 (was -1)
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/ImeTracker( 8289): system_server:bc2f55de: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612053, 7829018, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612082, 12190552, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612111, 8334586, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612126, 9787620, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612155, 6657454, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612184, 10792888, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612213, 15023422, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed App frame:UNKNOWN: 3, 2612249, 29456756, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:UNKNOWN: 3, 2612249, 29456756, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612277, 27946990, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612299, 16486724, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612321, 15761758, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612350, 17480592, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+V/PerfettoTrigger( 8289): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:39 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2uqdtOKIkqeqJ4CFqTGyDCyg0EsgDoZeZTyyzX3BeSTDvzyK93NaNPRTv72rPuD0sEupwhNeL5RDGwQua3hUfVvlgfOI19gzsmTxbnRjATgaIxDKeg%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe06e4a82fcde-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/ImeTracker( 8289): com.example.demo_v1:a003edd: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 8289): show(ime(), fromIme=false)
+D/InsetsController( 8289): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor( 8289): The input method toggled cursor monitoring on
+I/AssistStructure( 8289): Flattened final assist data: 480 bytes, containing 1 windows, 3 views
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:40 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z3HsL1SOW3Gki2%2F%2BFtwCEr3CStU6oTISUDj%2BzfH8vW59x4xZKpkyVFcqkqQHScGTjbVJwlOoNfiIA6DK79HtSkHpcYzhHEG%2B%2F1ugabEgGbjKVjJ3AQ%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe072ad2ec26b-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/ImeTracker( 8289): com.example.demo_v1:a003edd: onShown
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612836, 8689418, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612865, 6070652, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612887, 12695086, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612916, 7799720, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612938, 10904554, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2612989, 15587622, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613018, 68233056, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613067, 122778724, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.demo_v1>
+V/PerfettoTrigger( 8289): Not triggering com.android.telemetry.interaction-jank-monitor-80 - not enough time since last trigger
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:41 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kQ%2F7QyLVBOBpd8wS8lmTZCowtHNPx%2BZTDLH96yFUw4ZnqjBqJaG4kVqPVBFt7j47Yg9%2FqoZyYlqrFvHBgwa0gG5msUlSrftOk7Ic7JQOAyufbk8vCA%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe0799801fe90-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+I/ImeTracker( 8289): com.example.demo_v1:2041ae9f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 8289): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 8289): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@92c1281
+D/InsetsController( 8289): Setting requestedVisibleTypes to -9 (was -1)
+I/ImeTracker( 8289): system_server:4a377d86: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:42 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=L1k2aNjzPRyNeX4WxUWwQE7qkgI%2BeajQBcgP6Yzcvp6ezaHNrLXhZ21F%2Fm3UkdsCa4t49gQF7iSqbwFJuQpaMLJW1I1JGNUT5X%2FPQLyxfoqIBOK5xg%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe07fe84ea02f-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613705, 18044476, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613713, 18092510, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613728, 15479844, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613750, 24043878, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613772, 27993412, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613787, 29141346, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613802, 30312180, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613824, 27682514, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613839, 30874148, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613854, 29127282, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613876, 26696016, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613891, 33166650, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+W/FrameTracker( 8289): Missed SF frame:JANK_COMPOSER, 2613913, 33607684, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.demo_v1>
+V/PerfettoTrigger( 8289): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 🔑 Verifying OTP with endpoint: /api/auth/login-otp and data: {phone: 0345807906, otp: 778899}
+I/flutter ( 8289): 🌐 API POST Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/auth/login-otp
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289):    Body: {"phone":"0345807906","otp":"778899"}
+I/flutter ( 8289):    Body Size: 37 bytes
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:43 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Uh1NiChI2jEof1k5uCopY5574VFWp1QSr86Yyp%2FXk1BDAdoYPBs4ZXzEUkA6jeCI7OTUyt6VdPXznF00sn8uhGwWCiPCbqlb8G5LaE7DzpCfEFGNew%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe085ac61f8d0-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: 332280a09ded4de38268b09772c18f9b
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 🛒 Set cart token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw
+I/flutter ( 8289): 🛒 Cart token found in response data: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw
+I/flutter ( 8289): 📥 API POST Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:44 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LNoIzdN3hutLASXOkOqBUWfq0bXyhsseN%2Bo7cbp5vthZyxy%2Bw%2F9S9JyTJ3YuagHDeIGIYQeua170zx13X8xUtUvNVk2OOYmoZmBdz50n7D1wNmTv4g%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe088bc7e9ca5-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Xác thực thành công","code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw","expires_in":86400000}}
+I/flutter ( 8289):    Body Length: 246
+I/flutter ( 8289): API Response Body: {"message":"Xác thực thành công","code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw","expires_in":86400000}}
+I/flutter ( 8289): API Response Decoded: {"message":"Xác thực thành công","code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw","expires_in":86400000}}
+I/flutter ( 8289): 🔑 API Response: {message: Xác thực thành công, code: 200, data: {token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw, expires_in: 86400000}}
+I/flutter ( 8289): 🔑 Got token: eyJhbGciOi...
+I/flutter ( 8289): 🛒 Saved cart token to storage: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw
+I/flutter ( 8289): 🔑 Token saved to secure storage and API service
+I/flutter ( 8289): 🔑 API headers after setting token: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw}
+I/flutter ( 8289): 👤 Fetching user profile...
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/customers/profile
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw, Cookie: cart_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw}
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:44 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=t2yolbt8Br2Jk07bv6UFdEspbbnGeT3e1NfW2KubSTPLoTQvbP%2BukRql8TEGrQa%2FX4lc%2FQCvelh8gCQrpDmrsjiIaQpNdIu%2FZRU4lyaOcz74Ox50Dw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe08b9ddc1184-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:44 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tk%2FLbE1eqe%2FJCtXY2YIKapkSLjwTV1JBQp%2Ftm8yI8WC%2F2vgKqGW%2F0Eygpe8%2BoewxCJRON0WRXG3qgQnlq5l8hcYS5SNGEgLN5jygA3ncyTQlDcwF%2Bw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe08c6e90fcef-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":null},{"id":"
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":nul
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"customer":{"id":"f6d72e89-71fd-41d2-9f44-ae12aa348748","accepts_marketing":true,"addresses":[{"id":"92694631-e814-41ca-b94b-20f439d5fdd9","address1":"303 Truong Thi Hoa","address2":null,"city":"Hồ Chí Minh","company":null,"country":"Vietnam","country_code":"vn","district":"Quận 12","district_code":"HC477","first_name":"Thai Nguyen","default":true,"last_name":"Hoang","name":"Hoang Thai Nguyen","phone":"0345807906","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Thới Hiệp","ward_code":"26782","zip":null},{"id":"6ecc2e2f-12bd-402f-b30a-bcd2856427bb","address1":"123","address2":null,"city":"Hồ Chí Minh","company":null,"country":null,"country_code":null,"district":"Quận 1","district_code":"HC466","first_name":"Thanh Hau","default":false,"last_name":"Nguyen","name":"Nguyen Thanh Hau","phone":"0123456789","province":"Hồ Chí Minh","province_code":"HC","ward":"Phường Tân Định","ward_code":"26734","zip":
+I/flutter ( 8289): 👤 Profile API response: {message: Thành công, code: 200, data: {customer: {id: f6d72e89-71fd-41d2-9f44-ae12aa348748, accepts_marketing: true, addresses: [{id: 92694631-e814-41ca-b94b-20f439d5fdd9, address1: 303 Truong Thi Hoa, address2: null, city: Hồ Chí Minh, company: null, country: Vietnam, country_code: vn, district: Quận 12, district_code: HC477, first_name: Thai Nguyen, default: true, last_name: Hoang, name: Hoang Thai Nguyen, phone: 0345807906, province: Hồ Chí Minh, province_code: HC, ward: Phường Tân Thới Hiệp, ward_code: 26782, zip: null}, {id: 6ecc2e2f-12bd-402f-b30a-bcd2856427bb, address1: 123, address2: null, city: Hồ Chí Minh, company: null, country: null, country_code: null, district: Quận 1, district_code: HC466, first_name: Thanh Hau, default: false, last_name: Nguyen, name: Nguyen Thanh Hau, phone: 0123456789, province: Hồ Chí Minh, province_code: HC, ward: Phường Tân Định, ward_code: 26734, zip: null}, {id: d6b1b13c-6925-4a9a-a6d0-e716e3c02c95, address1:
+I/flutter ( 8289): 👤 User profile parsed successfully: Nguyen Hoang Thai
+I/flutter ( 8289): 👤 User profile fetched successfully: Nguyen Hoang Thai
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json}
+I/flutter ( 8289): 🛒 Loaded cart token from storage: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI5ODMsImV4cCI6MTc1MzQwOTM4M30.Lbx1vRpaeVhvQsTa5YcMjFveCGvsy5CeDnAKMa8xYzw
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 401
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:45 GMT, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8hZ7O%2FVh31t1iDW%2BvV463i8D61u548f%2BVsWunJj3nFQipMV0Tj6ZwZerq18mRJP4IyyxjqIAGAgT3Bd1HxmG1JeOzwVW3wOk9MGwVq95enIEyPFTSg%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe08fbb3bc579-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: 
+I/flutter ( 8289): API Error: 401 - 
+I/flutter ( 8289): ❌ API GET Error: Exception: Access denied. Please login again.
+I/flutter ( 8289):    Endpoint: /api/notifications
+I/flutter ( 8289):    Full URL: https://nguyenhauweb.software/api/notifications
+I/flutter ( 8289): API Error detail: Exception: Access denied. Please login again.
+I/flutter ( 8289): API Error: Exception: Access denied. Please login again.
+I/flutter ( 8289): Error fetching notifications: Exception: Access denied. Please login again.
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+W/WindowOnBackDispatcher( 8289): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@be44349
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 🛒 Fetching cart from server
+I/flutter ( 8289): 🛒 Using cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/cart
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 🛒 Set cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Cart token found in response data: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:48 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MHfewBX9Saqf9HQbeIJr3yJANf5YCvhMpAkNX%2BX74cLE3RcymETL13yBwFC%2FDrEg4GodjL86MctvpQxMfFOiNl4QRT1hXpWEJI620jdxjNxw3%2FNuqg%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe0a6ca6e894a-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift_wrap":"ye
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","g
+I/flutter ( 8289): 🛒 Cart response: {message: Thành công, code: 200, data: {id: 46c9c228-a89a-40ce-89b0-777bdc08e7db, token: 332280a09ded4de38268b09772c18f9b, item_count: 1, total_price: 600000.0, items: [{id: f0b0eb55-fe20-4acb-a3ad-c091ac1257b4, quantity: 1, price: 600000.0, line_price: 600000.0, variant_id: 147, product_id: a8b5e4f9-a5ca-4cd8-a110-645b49cc4452, product_title: product-test-2025, variant_title: 10, sku: NHẪN-NỮ-10-240725005934, image: https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png, line: 1}], attributes: {shipping_instructions: No special instructions, shipping_company: Company 2, shipping_method_id: 1, shipping_city: Hồ Chí Minh, delivery_instructions: leave at door, shipping_province_id: 0, shipping_ward_id: 26887, shipping_district_id: 0, payment_method_id: 2, full_name: Tuyen Pham, shipping_country_id: 241, phone_number: 0123456789, shipping_address: Address demo 1, gift_wrap: yes, email: thaidemo@gmail.com, shipping
+I/flutter ( 8289): ✅ Cart fetched successfully
+I/flutter ( 8289):    Cart ID: 46c9c228-a89a-40ce-89b0-777bdc08e7db
+I/flutter ( 8289):    Cart Token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289):    Items: 1
+I/flutter ( 8289):    Total: 600000.0
+I/flutter ( 8289): 🛒 Saved cart token to storage: 332280a09ded4de38268b09772c18f9b
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+W/WindowOnBackDispatcher( 8289): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@be44349
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+I/flutter ( 8289): 🛒 Fetching cart from server
+I/flutter ( 8289): 🛒 Using cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🌐 API GET Request:
+I/flutter ( 8289):    URL: https://nguyenhauweb.software/api/client/cart
+I/flutter ( 8289):    Headers: {Content-Type: application/json; charset=utf-8, Accept: application/json, Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIrODQzNDU4MDc5MDZAbm8tZW1haWwubG9jYWwiLCJpYXQiOjE3NTMzMjI4ODcsImV4cCI6MTc1MzQwOTI4N30.yy7XJfV0CTK-RoI1hSJOHG9BCVoG9VCWL2-k2wLPo3c, Cookie: cart_token=332280a09ded4de38268b09772c18f9b}
+I/flutter ( 8289): 🛒 Set cart token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 🛒 Cart token found in response data: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289): 📥 API GET Response:
+I/flutter ( 8289):    Status: 200
+I/flutter ( 8289):    Headers: {connection: keep-alive, cache-control: no-cache, no-store, max-age=0, must-revalidate, transfer-encoding: chunked, date: Thu, 24 Jul 2025 02:09:57 GMT, content-encoding: gzip, vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=k6m5XaZ77QQwAXTDtYcpDHc85fuqq%2BAa8oE%2BelP0%2BCEpVmTY0YvJWYQDp12uRA9rQMM0EBD5pBbTpLjptJxXUzdO%2BJapVeM1wk%2BbO6MPQH8Xvc53Xw%3D%3D"}]}, cf-cache-status: DYNAMIC, content-type: application/json, pragma: no-cache, x-xss-protection: 0, server: cloudflare, alt-svc: h3=":443"; ma=86400, nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}, cf-ray: 963fe0ddcf3ffd9e-SIN, x-frame-options: DENY, x-content-type-options: nosniff, expires: 0}
+I/flutter ( 8289):    Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift_wrap":"ye
+I/flutter ( 8289): API Response Body: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","gift
+I/flutter ( 8289): API Response Decoded: {"message":"Thành công","code":200,"data":{"id":"46c9c228-a89a-40ce-89b0-777bdc08e7db","token":"332280a09ded4de38268b09772c18f9b","item_count":1,"total_price":600000.0,"items":[{"id":"f0b0eb55-fe20-4acb-a3ad-c091ac1257b4","quantity":1,"price":600000.0,"line_price":600000.0,"variant_id":147,"product_id":"a8b5e4f9-a5ca-4cd8-a110-645b49cc4452","product_title":"product-test-2025","variant_title":"10","sku":"NHẪN-NỮ-10-240725005934","image":"https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png","line":1}],"attributes":{"shipping_instructions":"No special instructions","shipping_company":"Company 2","shipping_method_id":"1","shipping_city":"Hồ Chí Minh","delivery_instructions":"leave at door","shipping_province_id":"0","shipping_ward_id":"26887","shipping_district_id":"0","payment_method_id":"2","full_name":"Tuyen Pham","shipping_country_id":"241","phone_number":"0123456789","shipping_address":"Address demo 1","g
+I/flutter ( 8289): 🛒 Cart response: {message: Thành công, code: 200, data: {id: 46c9c228-a89a-40ce-89b0-777bdc08e7db, token: 332280a09ded4de38268b09772c18f9b, item_count: 1, total_price: 600000.0, items: [{id: f0b0eb55-fe20-4acb-a3ad-c091ac1257b4, quantity: 1, price: 600000.0, line_price: 600000.0, variant_id: 147, product_id: a8b5e4f9-a5ca-4cd8-a110-645b49cc4452, product_title: product-test-2025, variant_title: 10, sku: NHẪN-NỮ-10-240725005934, image: https://res.cloudinary.com/dvtcwbbck/image/upload/v1753293582/product-a8b5e4f9-a5ca-4cd8-a110-645b49cc4452-1753293580465.png, line: 1}], attributes: {shipping_instructions: No special instructions, shipping_company: Company 2, shipping_method_id: 1, shipping_city: Hồ Chí Minh, delivery_instructions: leave at door, shipping_province_id: 0, shipping_ward_id: 26887, shipping_district_id: 0, payment_method_id: 2, full_name: Tuyen Pham, shipping_country_id: 241, phone_number: 0123456789, shipping_address: Address demo 1, gift_wrap: yes, email: thaidemo@gmail.com, shipping
+I/flutter ( 8289): ✅ Cart fetched successfully
+I/flutter ( 8289):    Cart ID: 46c9c228-a89a-40ce-89b0-777bdc08e7db
+I/flutter ( 8289):    Cart Token: 332280a09ded4de38268b09772c18f9b
+I/flutter ( 8289):    Items: 1
+I/flutter ( 8289):    Total: 600000.0
+I/flutter ( 8289): 🛒 Saved cart token to storage: 332280a09ded4de38268b09772c18f9b
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+W/WindowOnBackDispatcher( 8289): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@be44349
+E/libEGL  ( 8289): called unimplemented OpenGL ES API
+
+======== Exception caught by widgets library =======================================================
+The following assertion was thrown building ProfileScreen(dirty, dependencies: [_InheritedProviderScope<AuthService?>], state: _ProfileScreenState#4830f):
+'package:flutter/src/material/bottom_navigation_bar.dart': Failed assertion: line 255 pos 15: '0 <= currentIndex && currentIndex < items.length': is not true.
+
+The relevant error-causing widget was: 
+  ProfileScreen ProfileScreen:file:///D:/root-demo2/Mobile-HannieJewelry-v3/lib/routes/app_pages.dart:126:41
+When the exception was thrown, this was the stack: 
+#2      new BottomNavigationBar (package:flutter/src/material/bottom_navigation_bar.dart:255:15)
+#3      _ProfileScreenState.build (package:demo_v1/features/profile/screens/profile_screen.dart:296:28)
+#4      StatefulElement.build (package:flutter/src/widgets/framework.dart:5841:27)
+#5      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5733:15)
+#6      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5892:11)
+#7      Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#8      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5715:5)
+#9      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5883:11)
+#10     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5709:5)
+...     Normal element mounting (234 frames)
+#244    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4555:16)
+#245    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7178:36)
+#246    Element.updateChild (package:flutter/src/widgets/framework.dart:4020:18)
+#247    Element.updateChildren (package:flutter/src/widgets/framework.dart:4217:11)
+#248    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7211:17)
+#249    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#250    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#251    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5892:11)
+#252    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#253    StatefulElement.update (package:flutter/src/widgets/framework.dart:5917:5)
+#254    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#255    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#256    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#257    ProxyElement.update (package:flutter/src/widgets/framework.dart:6059:5)
+#258    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#259    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#260    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#261    ProxyElement.update (package:flutter/src/widgets/framework.dart:6059:5)
+#262    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#263    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#264    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#265    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5892:11)
+#266    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#267    StatefulElement.update (package:flutter/src/widgets/framework.dart:5917:5)
+#268    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#269    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#270    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#271    ProxyElement.update (package:flutter/src/widgets/framework.dart:6059:5)
+#272    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#273    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#274    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#275    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5892:11)
+#276    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#277    StatefulElement.update (package:flutter/src/widgets/framework.dart:5917:5)
+#278    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#279    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#280    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5892:11)
+#281    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#282    StatefulElement.update (package:flutter/src/widgets/framework.dart:5917:5)
+#283    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#284    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7034:14)
+#285    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#286    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7034:14)
+#287    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#288    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#289    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#290    ProxyElement.update (package:flutter/src/widgets/framework.dart:6059:5)
+#291    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#292    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#293    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#294    ProxyElement.update (package:flutter/src/widgets/framework.dart:6059:5)
+#295    Element.updateChild (package:flutter/src/widgets/framework.dart:3998:15)
+#296    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5756:16)
+#297    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5892:11)
+#298    Element.rebuild (package:flutter/src/widgets/framework.dart:5445:7)
+#299    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2704:15)
+#300    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2762:11)
+#301    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3066:18)
+#302    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1229:21)
+#303    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:482:5)
+#304    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1442:15)
+#305    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1355:9)
+#306    SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1208:5)
+#307    _invoke (dart:ui/hooks.dart:316:13)
+#308    PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:428:5)
+#309    _drawFrame (dart:ui/hooks.dart:288:31)
+(elided 2 frames from class _AssertionError)
+====================================================================================================
+W/WindowOnBackDispatcher( 8289): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@be44349

@@ -1,0 +1,61 @@
+name: demo_v1
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+  flutter_svg: ^2.0.7
+  http: ^1.1.0
+  mobile_scanner: ^3.5.2  # Replacing qr_code_scanner
+  flutter_stripe: ^9.3.0
+  flutter_dotenv: ^5.1.0
+  ably_flutter: ^1.2.40
+  
+  # Add missing dependencies
+  flutter_secure_storage: ^8.0.0
+  qr_flutter: ^4.1.0
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.0
+  flutter_html: ^3.0.0
+  flutter_carousel_widget: ^2.2.0
+  url_launcher: ^6.2.5
+  carousel_slider: ^5.1.1
+  smooth_page_indicator: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/static/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat/static/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat/static/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/static/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat/static/Montserrat-Italic.ttf
+          style: italic

@@ -1,0 +1,75 @@
+Performing hot restart...
+Syncing files to device SM G781U1 (wireless)...
+lib/features/orders/services/order_service.dart:185:17: Error: Required named parameter 'createdAt' must be provided.
+      OrderModel(
+                ^
+lib/features/checkout/models/order_model.dart:139:3: Context: Found this candidate, but the arguments don't match.
+  OrderModel({
+  ^^^^^^^^^^
+lib/features/checkout/services/checkout_service.dart:92:24: Error: Required named parameter 'createdAt' must be provided.
+      return OrderModel(
+                       ^
+lib/features/checkout/models/order_model.dart:139:3: Context: Found this candidate, but the arguments don't match.
+  OrderModel({
+  ^^^^^^^^^^
+lib/features/orders/screens/order_detail_screen.dart:865:65: Error: The getter 'name' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'name'.
+    if (order.shippingAddress != null && order.shippingAddress!.name.isNotEmpty) {
+                                                                ^^^^
+lib/features/orders/screens/order_detail_screen.dart:866:37: Error: The getter 'name' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'name'.
+      return order.shippingAddress!.name;
+                                    ^^^^
+lib/features/orders/screens/order_detail_screen.dart:880:65: Error: The getter 'phone' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'phone'.
+    if (order.shippingAddress != null && order.shippingAddress!.phone.isNotEmpty) {
+                                                                ^^^^^
+lib/features/orders/screens/order_detail_screen.dart:881:37: Error: The getter 'phone' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'phone'.
+      return order.shippingAddress!.phone;
+                                    ^^^^^
+lib/features/orders/screens/order_detail_screen.dart:898:19: Error: The getter 'address1' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'address1'.
+      if (address.address1.isNotEmpty) parts.add(address.address1);
+                  ^^^^^^^^
+lib/features/orders/screens/order_detail_screen.dart:898:58: Error: The getter 'address1' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'address1'.
+      if (address.address1.isNotEmpty) parts.add(address.address1);
+                                                         ^^^^^^^^
+lib/features/orders/screens/order_detail_screen.dart:899:19: Error: The getter 'ward' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'ward'.
+      if (address.ward.isNotEmpty) parts.add(address.ward);
+                  ^^^^
+lib/features/orders/screens/order_detail_screen.dart:899:54: Error: The getter 'ward' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'ward'.
+      if (address.ward.isNotEmpty) parts.add(address.ward);
+                                                     ^^^^
+lib/features/orders/screens/order_detail_screen.dart:900:19: Error: The getter 'district' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'district'.
+      if (address.district.isNotEmpty) parts.add(address.district);
+                  ^^^^^^^^
+lib/features/orders/screens/order_detail_screen.dart:900:58: Error: The getter 'district' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'district'.
+      if (address.district.isNotEmpty) parts.add(address.district);
+                                                         ^^^^^^^^
+lib/features/orders/screens/order_detail_screen.dart:901:19: Error: The getter 'province' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'province'.
+      if (address.province.isNotEmpty) parts.add(address.province);
+                  ^^^^^^^^
+lib/features/orders/screens/order_detail_screen.dart:901:58: Error: The getter 'province' isn't defined for the type 'Map<String, dynamic>'.
+ - 'Map' is from 'dart:core'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'province'.
+      if (address.province.isNotEmpty) parts.add(address.province);
+                                                         ^^^^^^^^
+Restarted application in 904ms.
